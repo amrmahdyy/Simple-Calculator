@@ -1,0 +1,59 @@
+        body {
+            background-image: url("https://www.jakpost.travel/wimages/large/84-841062_purple-and-blue-rectangle-background-simple-backgrounds-simple.jpg")
+        }
+        
+        .calculator-border {
+            height: 470px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            font-size: 40px;
+            background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+            box-shadow: 0px 0px 20px rgb(113, 191, 223);
+        }
+        /* .btns {
+            display: block;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: dodgerblue;
+            border: 0px;
+            color: white;
+            outline: 0;
+            border: 0;
+            font-size: 17px;
+        } */
+        
+        #number:focus,
+        #removebtn:focus,
+        #clear:focus,
+        #equal:focus {
+            box-shadow: none;
+        }
+        /* #removebtn {
+            align-items: center;
+            text-align: center;
+            color: white;
+        } */
+        
+        .removeButton {
+            width: 5px;
+            height: 10px;
+        }
+        
+        input {
+            display: block;
+            width: 299px;
+            height: 80px;
+            border: 0px;
+            /* background-color: dimgray; */
+            background-image: linear-gradient(to top, #fed6e3 100%);
+            background-color: #ecdce1;
+            text-align: right;
+            color: black;
+            padding-right: 15px;
+        }
